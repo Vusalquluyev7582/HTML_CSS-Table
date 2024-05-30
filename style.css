@@ -1,0 +1,76 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background: #E55D87;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5FC3E4, #E55D87);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5FC3E4, #E55D87);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+table {
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px black;
+}
+
+thead {
+    color: white;
+    background-color: purple;
+    line-height: 50px;
+    text-align: left;
+}
+
+thead tr th:first-child {
+    padding-left: 40px;
+}
+
+tbody {
+    line-height: 45px;
+}
+
+tbody tr td:first-child {
+    padding-left: 40px;
+}
+
+tbody tr:nth-child(odd) {
+    color: black;
+    background-color: white;
+}
+
+tbody tr:nth-child(even) {
+    color: black;
+    background-color: rgb(192, 190, 190);
+}
+
+tbody tr {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+tbody tr:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+tfoot {
+    color: white;
+    background-color: purple;
+    line-height: 50px;
+    text-align: left;
+}
+
+tfoot tr td {
+    text-align: center;
+}
